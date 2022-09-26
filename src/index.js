@@ -1,15 +1,12 @@
-import loadPage from "./modules/loadPage";
-import main from "./modules/webPage";
-import createTask from "./modules/taskManager";
+import "./style.css";
+import task from "./modules/taskManager";
 
-main();
-loadPage();
-
+task();
 //add events to create tasks
 
 //sample
-const cm = createTask("Client Management", "LWC", "4");
-const pr = createTask("Prospect Research", "AVG", "2");
+// const cm = createTask("Client Management");
+// const pr = createTask("Prospect Research");
 
-console.log(cm);
-console.log(pr);
+// console.log(cm);
+// console.log(pr);
